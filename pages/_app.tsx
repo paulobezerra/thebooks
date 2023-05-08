@@ -1,5 +1,6 @@
 import React from "react";
 import styled, { createGlobalStyle } from "styled-components";
+import { Analytics } from '@vercel/analytics/react';
 
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
@@ -12,6 +13,7 @@ function MyApp({ Component, pageProps }) {
       <AppContainer>
         <Component {...pageProps} />
       </AppContainer>
+      <Analytics/>
     </>
   );
 }
