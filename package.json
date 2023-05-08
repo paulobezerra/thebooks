@@ -10,8 +10,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "postinstall": "patch-package"
+    "lint": "next lint"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "6.1.2",
@@ -20,7 +19,7 @@
     "next": "13.4.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "styled-components": "5.3.5"
+    "styled-components": "6.0.0-rc.1"
   },
   "devDependencies": {
     "@types/node": "20.1.0",
