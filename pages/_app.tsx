@@ -33,7 +33,7 @@ const GlobalStyle = createGlobalStyle`
 
   * {
     font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
+    font-size: 16px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
